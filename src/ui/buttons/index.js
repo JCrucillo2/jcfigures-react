@@ -26,6 +26,7 @@ const LogInButton = styled(Button)`
     transition: all 0.2s ease;
     &:hover {
         background: ${buttonHover};
+        color: ${lightColor};
     }
 `;
 
