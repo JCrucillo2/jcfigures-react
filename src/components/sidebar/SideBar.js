@@ -11,7 +11,7 @@ function SideBar(props) {
         <>
             <SideBarStyles>
                 <SideBarHeader>
-                    <MdIcons.MdDashboard size="1.75rem" />
+                    <MdIcons.MdDashboard size="28px" />
                     <h2>DashBoard</h2>
                 </SideBarHeader>
 

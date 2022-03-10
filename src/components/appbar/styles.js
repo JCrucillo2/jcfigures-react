@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { fontHeading } from "styles/variables";
 
 const AppBarStyles = styled.nav`
     position: relative;
@@ -13,7 +14,12 @@ const AppBarItems = styled.ul`
     align-items: center;
 `;
 
-const AppBarItem = styled.li``;
+const AppBarItem = styled.li`
+    h1 {
+        font-family: ${fontHeading};
+        font-size: 2rem;
+    }
+`;
 
 const AppBarItemGroup = styled.li`
     display: flex;

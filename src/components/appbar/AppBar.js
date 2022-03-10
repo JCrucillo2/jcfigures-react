@@ -41,14 +41,11 @@ function AppBar(props) {
                             Sign Out
                         </LogInButton>
                         <IconButton>
-                            <IoIcons.IoMailOutline
-                                size="1.5rem"
-                                color="orange"
-                            />
+                            <IoIcons.IoMailOutline size="24px" color="orange" />
                         </IconButton>
                         <IconButton>
                             <IoIcons.IoNotificationsOutline
-                                size="1.5rem"
+                                size="24px"
                                 color="orange"
                             />
                         </IconButton>
@@ -60,7 +57,7 @@ function AppBar(props) {
                         </IconButton>
                         <IconButton>
                             <IoIcons.IoEllipsisVertical
-                                size="1.25rem"
+                                size="20px"
                                 color="orange"
                             />
                         </IconButton>
