@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# JCFigures Store React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<details>
+    <summary>Table of Contents</summary>
+    <ol>
+        <li>
+            <a href="#about-the-project">About The Project</a>
+            <ul>
+                <li><a href="#things-i-used">Things I used</a></li>
+            </ul>
+        </li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+    </ol>
 
-## Available Scripts
+</details>
 
-In the project directory, you can run:
+<!-- All information here -->
 
-### `npm start`
+## About The Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[![JCFigures Login Page][login-page-sc]](https://jcfigures-react.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![JCFigures Dashboard Page](user-images/dashboard-page-sc.png)
 
-### `npm test`
+JCFigures is a site dedicated in selling famous and high quality statues and figurines of some of the best characters in video games. Now built with React!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
-### `npm run build`
+## Things I used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-   [React](https://reactjs.org/)
+-   [Firebase](https://firebase.google.com/)
+-   [Styled Components](https://styled-components.com/)
+-   [React Toastify](https://fkhadra.github.io/react-toastify/introduction)
+-   [React Bootstrap (for checkbox only)](https://react-bootstrap.github.io/)
+-   [React Icons](https://react-icons.github.io/react-icons/)
+-   [Browser Router](https://v5.reactrouter.com/web/api/BrowserRouter)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+-   Invalid Email or Password combination shows a toast on top center of the screen.
+-   Custom 404 and protected dashboard
+-   On user signout, session is terminated.
+-   Everything is styled with styled-components
+-
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- roadmap -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Roadmap
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-   [x] Added hover transition links
+-   [x] Prepopulate fields in edit.html
+-   [ ] Add CRUD functionality
+-   [ ] Sidebar links connected by browser router
+-   [ ] Responsive design
 
-## Learn More
+These are the currently planned changes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- markdown images -->
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[login-page-sc]: user-images/login-page-sc.png
