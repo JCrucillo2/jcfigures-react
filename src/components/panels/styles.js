@@ -12,7 +12,7 @@ const PanelStyles = styled.section`
 const PanelHeader = styled.header`
     h2 {
         background-color: ${themeColor};
-        padding: 0.5rem;
+        padding: 1rem 1.5rem;
         border-radius: 3px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
@@ -21,7 +21,7 @@ const PanelHeader = styled.header`
 `;
 
 const PanelBody = styled.div`
-    margin: ${(props) => props.margin || " 3rem"};
+    margin: ${(props) => props.margin || "2rem"};
 `;
 
 export { PanelStyles, PanelBody, PanelHeader };
