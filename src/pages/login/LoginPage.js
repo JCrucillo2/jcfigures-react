@@ -102,6 +102,7 @@ function LoginPage(props) {
                                 type="text"
                                 placeholder="janedoe@gmail.com"
                                 onChange={(e) => setEmail(e.target.value)}
+                                required
                             ></InputBox>
                         </InputContainer>
 
@@ -111,6 +112,7 @@ function LoginPage(props) {
                                 type="password"
                                 placeholder="password"
                                 onChange={(e) => setPassword(e.target.value)}
+                                required
                             ></InputBox>
                         </InputContainer>
 

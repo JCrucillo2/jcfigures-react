@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { themeColor } from "styles/variables";
+import { alternateThemeColor, themeColor } from "styles/variables";
 
 const PanelStyles = styled.section`
     flex: 1;
@@ -16,7 +16,9 @@ const PanelHeader = styled.header`
         border-radius: 3px;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
-        color: #3f3f3f;
+        color: ${alternateThemeColor};
+        font-weight: bold;
+        font-size: 1.5rem;
     }
 `;
 
