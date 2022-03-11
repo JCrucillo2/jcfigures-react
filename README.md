@@ -45,7 +45,6 @@ JCFigures is a site dedicated in selling famous and high quality statues and fig
 -   Custom 404 and protected dashboard
 -   On user signout, session is terminated.
 -   Everything is styled with styled-components
--
 
 <!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
@@ -54,7 +53,8 @@ JCFigures is a site dedicated in selling famous and high quality statues and fig
 ## Roadmap
 
 -   [x] Added hover transition links
--   [x] Prepopulate fields in edit.html
+-   [x] Login protection
+-   [ ] Dynamic avatar icon
 -   [ ] Add CRUD functionality
 -   [ ] Sidebar links connected by browser router
 -   [ ] Responsive design
