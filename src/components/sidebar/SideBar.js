@@ -13,10 +13,11 @@ import * as BsIcons from "react-icons/bs";
 import * as CgIcons from "react-icons/cg";
 
 // styles
-import { SideBarStyles, SideBarDiv } from "./styles";
+import { SideBarStyles, SideBarDiv, DashboardProduct } from "./styles";
 
 // ui
 import { LogInButton } from "ui/buttons";
+import ProductOptions from "./ProductOptions";
 
 function SideBar(props) {
     function onLogoutRequest(e) {
@@ -26,10 +27,14 @@ function SideBar(props) {
     return (
         <>
             <SideBarStyles>
-                <SideBarDiv bb="1px solid rgba(255,255,255,0.5)">
+                <SideBarDiv>
                     <MdIcons.MdDashboard size="28px" />
                     <h2>Dashboard</h2>
                 </SideBarDiv>
+
+                <DashboardProduct bb="1px solid rgba(255,255,255,0.5)">
+                    <ProductOptions />
+                </DashboardProduct>
 
                 <SideBarDiv>
                     <MdIcons.MdPeopleAlt size="28px" />

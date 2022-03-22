@@ -1,8 +1,5 @@
 import React from "react";
 
-// ui
-import { ButtonAdd } from "ui/buttons";
-
 // react icons
 import * as BsIcons from "react-icons/bs";
 
@@ -16,12 +13,7 @@ function AllProductPanel({ title, ...props }) {
                 <PanelHeader>
                     <h2>{title || "Display Panel"}</h2>
                 </PanelHeader>
-                <PanelBody>
-                    <ButtonAdd>
-                        <BsIcons.BsPlusCircle size="25px" />
-                        <span>Add Product</span>
-                    </ButtonAdd>
-                </PanelBody>
+                <PanelBody></PanelBody>
             </PanelStyles>
         </>
     );

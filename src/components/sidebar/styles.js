@@ -37,4 +37,9 @@ const SideBarDiv = styled.div`
     }
 `;
 
-export { SideBarStyles, SideBarDiv };
+const DashboardProduct = styled.div`
+    border-bottom: ${(props) => props.bb || "none"};
+    padding: 0 0 1rem 2rem;
+`;
+
+export { SideBarStyles, SideBarDiv, DashboardProduct };
