@@ -4,6 +4,8 @@ const {
     lightColor,
     buttonHover,
     alternateThemeColor,
+    darkColor,
+    themeColor,
 } = require("styles/variables");
 
 const Button = styled.button`
@@ -51,4 +53,33 @@ const ButtonAdd = styled(Button)`
     }
 `;
 
-export { Button, IconButton, LogInButton, ButtonAdd };
+const BuyProductBtn = styled(Button)`
+    background-color: ${lightColor};
+    color: ${darkColor};
+    width: 100%;
+    transition: all 0.2s ease;
+    &:hover {
+        background-color: ${darkColor};
+        color: ${lightColor};
+    }
+`;
+
+const AddToCartBtn = styled(Button)`
+    background-color: ${themeColor};
+    color: ${darkColor};
+    width: 100%;
+    transition: all 0.2s ease;
+    &:hover {
+        background-color: ${alternateThemeColor};
+        color: ${themeColor};
+    }
+`;
+
+export {
+    Button,
+    IconButton,
+    LogInButton,
+    ButtonAdd,
+    BuyProductBtn,
+    AddToCartBtn,
+};

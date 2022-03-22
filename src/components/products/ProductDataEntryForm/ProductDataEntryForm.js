@@ -12,22 +12,34 @@ import { Label } from "ui/forms/label";
 import { Input } from "ui/forms/input";
 import { TextArea } from "ui/forms/textarea";
 
-function ProductDataEntryForm({ children, ...props }) {
+function ProductDataEntryForm({
+    children,
+    handleProductName,
+    handleProductPrice,
+    setProductImage,
+    ...props
+}) {
     return (
         <ProductDataEntryFormStyles {...props}>
             <ProductImage>
                 <p>Product Image</p>
-                <ProductImageDropBox />
+                <ProductImageDropBox setProductImage={setProductImage} />
             </ProductImage>
 
             <ProductName>
                 <Label>Product Name</Label>
-                <Input />
+                <Input
+                    onChange={(e) => handleProductName(e.target.value.trim())}
+                    maxLength={30}
+                />
             </ProductName>
 
             <ProductPrice>
                 <Label>Product Price</Label>
-                <Input />
+                <Input
+                    onChange={(e) => handleProductPrice(e.target.value.trim())}
+                    maxLength={8}
+                />
             </ProductPrice>
 
             <ProductDescription>

@@ -3,9 +3,10 @@ import { lightColor, themeColor } from "styles/variables";
 
 const ProductPreviewStyles = styled.div`
     padding: 2rem;
-    background-color: rgba(36, 31, 94, 0.8);
+    background-color: rgba(36, 31, 94, 0.7);
     border-radius: 5px;
-    display: flex;
+    width: 360px;
+    /* display: flex; */
 `;
 
 const ProductImage = styled.div`
@@ -17,12 +18,8 @@ const ProductImage = styled.div`
         width: 100%;
         height: auto;
         border-radius: 5px;
+        margin-bottom: 1rem;
     }
-`;
-
-const ProductInformation = styled.div`
-    padding: 1rem;
-    width: 320px;
 `;
 
 const ProductName = styled.h2`
@@ -45,13 +42,19 @@ const ProductPrice = styled.p`
 const ProductDescription = styled.p`
     font-size: 13px;
     color: ${themeColor};
+    margin-bottom: 1rem;
+`;
+
+const BuySection = styled.div`
+    display: flex;
+    gap: 1rem;
 `;
 
 export {
     ProductPreviewStyles,
     ProductImage,
-    ProductInformation,
     ProductName,
     ProductPrice,
     ProductDescription,
+    BuySection,
 };
