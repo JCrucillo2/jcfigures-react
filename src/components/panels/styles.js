@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { alternateThemeColor, themeColor } from "styles/variables";
+import { alternateThemeColor, themeColor, lightColor } from "styles/variables";
 
 const PanelStyles = styled.section`
     flex: 1;
@@ -26,4 +26,70 @@ const PanelBody = styled.div`
     margin: ${(props) => props.margin || "2rem"};
 `;
 
-export { PanelStyles, PanelBody, PanelHeader };
+const PanelContentSample = styled.div`
+    display: flex;
+    gap: 2rem;
+`;
+
+// static styles for now
+const ProductView = styled.div`
+    padding: 2rem;
+    background-color: rgba(36, 31, 94, 0.7);
+    border-radius: 5px;
+    max-width: 360px;
+`;
+
+const ProductImage = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+`;
+
+const ProductName = styled.h2`
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: -0.5px;
+    color: ${themeColor};
+`;
+
+const ProductPrice = styled.p`
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: -1px;
+    color: ${lightColor};
+    margin-top: -0.3rem;
+    margin-bottom: 0.25rem;
+`;
+
+const ProductDescription = styled.p`
+    font-size: 13px;
+    color: ${themeColor};
+    margin-bottom: 1rem;
+    word-wrap: break-word;
+`;
+
+const BuySection = styled.div`
+    display: flex;
+    gap: 1rem;
+`;
+
+export {
+    PanelStyles,
+    PanelBody,
+    PanelHeader,
+    PanelContentSample,
+    ProductView,
+    ProductImage,
+    ProductName,
+    ProductPrice,
+    ProductDescription,
+    BuySection,
+};
