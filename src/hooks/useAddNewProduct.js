@@ -1,3 +1,4 @@
+// firebase stuff
 import { ref, push, set } from "firebase/database";
 import { db, storage } from "libs/firebase";
 import {
@@ -5,6 +6,8 @@ import {
     uploadBytes,
     getDownloadURL,
 } from "firebase/storage";
+
+// react
 import { useState } from "react";
 
 function useAddNewProduct() {

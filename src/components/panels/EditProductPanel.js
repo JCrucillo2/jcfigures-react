@@ -3,7 +3,7 @@ import React from "react";
 // styles
 import { PanelStyles, PanelBody, PanelHeader } from "./styles";
 
-function AllProductPanel({ title, ...props }) {
+function EditProductPanel({ title, ...props }) {
     return (
         <>
             <PanelStyles>
@@ -16,4 +16,4 @@ function AllProductPanel({ title, ...props }) {
     );
 }
 
-export default AllProductPanel;
+export default EditProductPanel;

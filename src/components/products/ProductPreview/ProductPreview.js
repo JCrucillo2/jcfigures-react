@@ -1,8 +1,12 @@
 import React from "react";
+
+// ui
 import { AddToCartBtn, BuyProductBtn } from "ui/buttons";
 
+// react-icons
 import * as IoIcons from "react-icons/io5";
 
+// styles
 import {
     ProductPreviewStyles,
     ProductImage,

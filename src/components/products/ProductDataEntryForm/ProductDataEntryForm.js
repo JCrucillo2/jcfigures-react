@@ -1,5 +1,6 @@
 import React from "react";
 
+// styles
 import {
     ProductDataEntryFormStyles,
     ProductImage,
@@ -8,7 +9,11 @@ import {
     ProductDescription,
     ProductSubmit,
 } from "./styles";
+
+// react-dropzone
 import { ProductImageDropBox } from "../ProductImageDropBox";
+
+// ui
 import { Label } from "ui/forms/label";
 import { Input } from "ui/forms/input";
 import { Button } from "ui/buttons";

@@ -1,10 +1,5 @@
 import styled from "styled-components";
-import {
-    alternateThemeColor,
-    darkColor,
-    lightColor,
-    themeColor,
-} from "styles/variables";
+import { alternateThemeColor, themeColor } from "styles/variables";
 
 const SideBarStyles = styled.aside`
     width: 289px;
@@ -39,7 +34,7 @@ const SideBarDiv = styled.div`
 
 const DashboardProduct = styled.div`
     border-bottom: ${(props) => props.bb || "none"};
-    padding: 0 0 1rem 2rem;
+    padding: 0 0 0.75rem 1.5rem;
 `;
 
 export { SideBarStyles, SideBarDiv, DashboardProduct };

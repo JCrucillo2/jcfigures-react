@@ -1,5 +1,9 @@
 import { DashBoardPage, PageNotFound, LoginPage } from "./pages";
-import { AddProductPanel, AllProductsPanel } from "components/panels";
+import {
+    AddProductPanel,
+    AllProductsPanel,
+    EditProductPanel,
+} from "components/panels";
 import React from "react";
 
 // react router
@@ -23,7 +27,7 @@ function App() {
                     />
                     <Route
                         path="edit"
-                        element={<AddProductPanel title="Edit A Product" />}
+                        element={<EditProductPanel title="Edit A Product" />}
                     />
                 </Route>
                 <Route path="*" element={<PageNotFound />} />

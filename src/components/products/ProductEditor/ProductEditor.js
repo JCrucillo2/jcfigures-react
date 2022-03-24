@@ -1,7 +1,10 @@
 import React from "react";
 
+// product imports
 import { ProductDataEntryForm } from "../ProductDataEntryForm";
 import { ProductPreview } from "../ProductPreview";
+
+// styles
 import { ProductEditorStyles } from "./styles";
 
 function ProductEditor({
