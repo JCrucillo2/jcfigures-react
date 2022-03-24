@@ -9,9 +9,12 @@ function ProductEditor({
     productName,
     productPrice,
     productImage,
+    productDescription,
     handleProductName,
     handleProductPrice,
+    handleProductDescription,
     setProductImage,
+    handleSubmit,
     ...props
 }) {
     return (
@@ -19,11 +22,14 @@ function ProductEditor({
             <ProductDataEntryForm
                 handleProductName={handleProductName}
                 handleProductPrice={handleProductPrice}
+                handleProductDescription={handleProductDescription}
                 setProductImage={setProductImage}
+                handleSubmit={handleSubmit}
             />
             <ProductPreview
                 productName={productName}
                 productPrice={productPrice}
+                productDescription={productDescription}
                 productImage={productImage}
             />
         </ProductEditorStyles>

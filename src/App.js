@@ -21,6 +21,10 @@ function App() {
                         path="add"
                         element={<AddProductPanel title="Add New Product" />}
                     />
+                    <Route
+                        path="edit"
+                        element={<AddProductPanel title="Edit A Product" />}
+                    />
                 </Route>
                 <Route path="*" element={<PageNotFound />} />
             </Routes>

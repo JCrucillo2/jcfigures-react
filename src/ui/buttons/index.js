@@ -17,6 +17,7 @@ const Button = styled.button`
     color: ${(props) => props.color || "grey"};
     font-size: ${(props) => props.fs || "1rem"};
     font-weight: ${(props) => props.fw || "700"};
+    width: ${(props) => props.width || "100%"};
     cursor: pointer;
 `;
 

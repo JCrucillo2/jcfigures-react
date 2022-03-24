@@ -25,6 +25,12 @@ function ProductOptions(props) {
                         Add New Product
                     </Link>
                 </li>
+                <li>
+                    <Link to="edit">
+                        <MdIcons.IoMdArrowDropright />
+                        Edit A Product
+                    </Link>
+                </li>
             </ProductOptionStyles>
         </>
     );

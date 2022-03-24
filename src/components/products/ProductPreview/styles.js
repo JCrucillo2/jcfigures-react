@@ -43,6 +43,7 @@ const ProductDescription = styled.p`
     font-size: 13px;
     color: ${themeColor};
     margin-bottom: 1rem;
+    word-wrap: break-word;
 `;
 
 const BuySection = styled.div`
