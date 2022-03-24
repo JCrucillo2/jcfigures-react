@@ -19,9 +19,17 @@
 
 ## About The Project
 
+### Dashboard Login Page
+
 [![JCFigures Login Page][login-page-sc]](https://jcfigures-react.netlify.app/)
 
+### Dashboard Index Page
+
 ![JCFigures Dashboard Page](user-images/dashboard-page-sc.png)
+
+### Add Product Screen
+
+![JCFigures Add Product Page](user-images/add-product-page.png)
 
 JCFigures is a site dedicated in selling famous and high quality statues and figurines of some of the best characters in video games. Now built with React!
 
@@ -36,15 +44,17 @@ JCFigures is a site dedicated in selling famous and high quality statues and fig
 -   [React Bootstrap (for checkbox only)](https://react-bootstrap.github.io/)
 -   [React Icons](https://react-icons.github.io/react-icons/)
 -   [Browser Router](https://v5.reactrouter.com/web/api/BrowserRouter)
+-   [React Dropzone](https://react-dropzone.js.org/)
 
 <!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
 ## Features
 
--   Invalid Email or Password combination shows a toast on top center of the screen.
+-   Login page toast notifications.
 -   Custom 404 and protected dashboard
 -   On user signout, session is terminated.
 -   Everything is styled with styled-components
+-   Insert to firebase database with realtime preview of product.
 
 <!-- <p align="right">(<a href="#top">back to top</a>)</p> -->
 
