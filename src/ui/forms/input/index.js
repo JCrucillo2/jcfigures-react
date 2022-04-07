@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { alternateThemeColor, themeColor } from "styles/variables";
+import { alternateThemeColor } from "styles/variables";
 
 const Input = styled.input`
     width: ${(props) => props.width || "100%"};

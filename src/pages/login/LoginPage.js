@@ -9,10 +9,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 // firebase
 import { auth } from "libs/firebase";
-import {
-    signInWithEmailAndPassword,
-    createUserWithEmailAndPassword,
-} from "firebase/auth";
+import { signInWithEmailAndPassword } from "firebase/auth";
 
 // ui
 import { LogInButton } from "ui/buttons";

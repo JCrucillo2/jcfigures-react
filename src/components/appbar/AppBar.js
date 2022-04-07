@@ -5,7 +5,6 @@ import * as IoIcons from "react-icons/io5";
 
 // ui
 import { IconButton } from "ui/buttons";
-import { LogInButton } from "ui/buttons";
 
 // styles
 import {
