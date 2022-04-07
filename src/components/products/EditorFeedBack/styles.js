@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { alternateThemeColor, buttonHover, themeColor } from "styles/variables";
+import { alternateThemeColor, themeColor } from "styles/variables";
 
 const EditorFeedBackStyles = styled.div`
     width: 80%;
@@ -10,7 +10,7 @@ const EditorFeedBackStyles = styled.div`
 const FeedBackMessage = styled.div`
     font-size: 1.75rem;
     font-weight: 600;
-    color: ${buttonHover};
+    color: ${alternateThemeColor};
     margin-top: 1rem;
 `;
 

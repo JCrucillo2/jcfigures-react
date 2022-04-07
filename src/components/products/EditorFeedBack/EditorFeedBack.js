@@ -18,6 +18,9 @@ import {
     FeedBackOption,
 } from "./styles";
 
+// variables
+import { buttonHover } from "styles/variables";
+
 function EditorFeedBack({ children, status, writeCompleted, ...props }) {
     const navigator = useNavigate();
 
@@ -25,14 +28,17 @@ function EditorFeedBack({ children, status, writeCompleted, ...props }) {
         <EditorFeedBackStyles {...props}>
             {!status ? (
                 <FeedBack>
-                    <IoIcons.IoCheckmarkDoneSharp color="007bff" size="12rem" />
+                    <IoIcons.IoCheckmarkDoneSharp
+                        color={buttonHover}
+                        size="12rem"
+                    />
                     <FeedBackMessage>
                         Product Uploaded Successfully
                     </FeedBackMessage>
                 </FeedBack>
             ) : (
                 <FeedBack>
-                    <ImIcons.ImUpload color="007bff" size="12rem" />
+                    <ImIcons.ImUpload color={buttonHover} size="12rem" />
                     <FeedBackMessage>Uploading...</FeedBackMessage>
                 </FeedBack>
             )}
