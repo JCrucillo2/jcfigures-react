@@ -1,10 +1,7 @@
 import React from "react";
 
 // ui
-import { AddToCartBtn, BuyProductBtn } from "ui/buttons";
-
-// react-icons
-import * as IoIcons from "react-icons/io5";
+import { DeleteBtn, EditProductBtn } from "ui/buttons";
 
 // styles
 import {
@@ -13,7 +10,7 @@ import {
     ProductName,
     ProductPrice,
     ProductDescription,
-    BuySection,
+    EditorSection,
 } from "./styles";
 
 function ProductPreview({
@@ -31,18 +28,16 @@ function ProductPreview({
             <ProductImage>
                 <img
                     src={productImage.previewImage}
-                    alt="placeholder"
+                    alt={productName}
                     width="320"
                     heigt="184"
                 />
             </ProductImage>
             <ProductDescription>{productDescription}</ProductDescription>
-            <BuySection>
-                <BuyProductBtn>Buy</BuyProductBtn>
-                <AddToCartBtn>
-                    <IoIcons.IoCartOutline size={25} />
-                </AddToCartBtn>
-            </BuySection>
+            <EditorSection>
+                <EditProductBtn>Edit</EditProductBtn>
+                <DeleteBtn>Delete</DeleteBtn>
+            </EditorSection>
         </ProductPreviewStyles>
     );
 }

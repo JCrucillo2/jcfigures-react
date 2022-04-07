@@ -1,7 +1,9 @@
 import styled from "styled-components";
 import { themeColor, lightColor } from "styles/variables";
 
-const ProductCardStyles = styled.div``;
+const ProductCardStyles = styled.div`
+    margin-bottom: 2rem;
+`;
 
 const ProductView = styled.div`
     padding: 2rem;
@@ -50,7 +52,7 @@ const ProductDescription = styled.p`
     text-overflow: ellipsis;
 `;
 
-const BuySection = styled.div`
+const EditorSection = styled.div`
     display: flex;
     gap: 1rem;
 `;
@@ -62,5 +64,5 @@ export {
     ProductName,
     ProductPrice,
     ProductDescription,
-    BuySection,
+    EditorSection,
 };

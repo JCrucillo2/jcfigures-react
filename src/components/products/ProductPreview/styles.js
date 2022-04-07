@@ -46,7 +46,7 @@ const ProductDescription = styled.p`
     word-wrap: break-word;
 `;
 
-const BuySection = styled.div`
+const EditorSection = styled.div`
     display: flex;
     gap: 1rem;
 `;
@@ -57,5 +57,5 @@ export {
     ProductName,
     ProductPrice,
     ProductDescription,
-    BuySection,
+    EditorSection,
 };

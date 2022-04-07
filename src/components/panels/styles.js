@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { alternateThemeColor, themeColor, lightColor } from "styles/variables";
+import { alternateThemeColor, themeColor } from "styles/variables";
 
 const PanelStyles = styled.section`
     flex: 1;
@@ -28,7 +28,31 @@ const PanelBody = styled.div`
 
 const PanelControl = styled.div`
     display: flex;
-    gap: 2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
 `;
 
-export { PanelStyles, PanelBody, PanelHeader, PanelControl };
+const NoData = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+    width: 100%;
+`;
+
+const NoDataMessage = styled.div`
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: ${alternateThemeColor};
+    margin-top: 1rem;
+    margin-left: 1rem;
+`;
+
+export {
+    PanelStyles,
+    PanelBody,
+    PanelHeader,
+    PanelControl,
+    NoData,
+    NoDataMessage,
+};

@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const {
     lightColor,
-    buttonHover,
     alternateThemeColor,
     darkColor,
     themeColor,
@@ -30,7 +29,7 @@ const LogInButton = styled(Button)`
     display: block;
     width: 100%;
     text-transform: uppercase;
-    letter-spacing: 0ch.5px;
+    letter-spacing: 0.5px;
     transition: all 0.2s ease;
     &:hover {
         background: ${alternateThemeColor};
@@ -54,7 +53,7 @@ const ButtonAdd = styled(Button)`
     }
 `;
 
-const BuyProductBtn = styled(Button)`
+const EditProductBtn = styled(Button)`
     background-color: ${lightColor};
     color: ${darkColor};
     width: 100%;
@@ -65,7 +64,7 @@ const BuyProductBtn = styled(Button)`
     }
 `;
 
-const AddToCartBtn = styled(Button)`
+const DeleteBtn = styled(Button)`
     background-color: ${themeColor};
     color: ${darkColor};
     width: 100%;
@@ -81,6 +80,6 @@ export {
     IconButton,
     LogInButton,
     ButtonAdd,
-    BuyProductBtn,
-    AddToCartBtn,
+    EditProductBtn,
+    DeleteBtn,
 };
